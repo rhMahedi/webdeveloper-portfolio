@@ -103,7 +103,15 @@ nav a {
 }
 
 /* main section start  */
+main section{
+  margin-top: 130px;
+}
 
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+
+}
 
 /* about section start  */
 .about {
@@ -120,7 +128,7 @@ nav a {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  
+
 }
 
 .about-des {
@@ -130,3 +138,45 @@ nav a {
   font-weight: 400;
 
 }
+
+.about-info-maincontainer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.about-container {
+  text-align: center;
+}
+
+.about-tittle {
+  line-height: 30px;
+  color: #757575;
+}
+
+.about-des {
+  font-weight: bold;
+  color: #181818;
+}
+
+/* end about  */
+
+/* start what i do */
+#what {
+  color: #757575;
+  padding: 30px 150px;
+}
+
+.skils-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skils {
+  padding: 30px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section  */
