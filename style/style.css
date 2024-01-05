@@ -9,6 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 
 }
 
@@ -53,4 +54,19 @@ nav a {
   font-size: 20px;
   font-weight: 400;
 
+}
+
+/* header related  */
+
+main-header{
+  background-color: #FFF8F3;
+}
+.mainhad-div{
+
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.porfile{
+  width: 400px;
 }
