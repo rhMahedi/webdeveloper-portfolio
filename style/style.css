@@ -180,3 +180,35 @@ main {
 }
 
 /* resume section  */
+
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.resume-container hr{
+  margin: 50px;
+}
+
+.resume-tittlee{
+color:  #474747;
+font-size: 30px;
+font-weight: 700;
+
+}
+.resume-title{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+
+}
+.resume-insti{
+  color:#757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-des{
+color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
